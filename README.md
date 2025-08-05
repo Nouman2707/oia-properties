@@ -29,7 +29,7 @@ A modern, responsive real estate website built with vanilla HTML5, CSS3, and mod
 ## 📁 Project Structure
 
 ```
-real-estate-page/
+oia-properties/
 ├── index.html                 # Main HTML file
 ├── css/
 │   └── style.css             # All styles and responsive design
@@ -39,9 +39,6 @@ real-estate-page/
 │   ├── PropertyCard.js       # Reusable property card component
 │   ├── PropertyCarousel.js   # Property listing carousel
 │   └── OffPlanSlider.js      # Off-plan projects slider
-├── assets/
-│   ├── images/               # Property and hero images (placeholder)
-│   └── icons/                # UI icons and graphics (placeholder)
 └── README.md                 # Project documentation
 ```
 
@@ -223,10 +220,11 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Support
 
 For support and questions:
-- Email: support@oiaproperties.com
-- WhatsApp: +971234567890
+- Email: noumansiddiqui227@gmail.com
+- WhatsApp: +971554252715
 - Website: https://oiaproperties.com
 
 ---
+
 
 **Built with ❤️ for the real estate industry**

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OIA Properties - Discover Your Most Comfort Place</title>
+    <meta name="description" content="Find your dream property with OIA Properties. Browse luxury villas, apartments and off-plan projects in prime locations.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Top Header with Language -->
+    <div class="top-header">
+        <div class="top-header-content">
+            <div class="language-selector">
+                <span class="fi fi-gb" class="flag-gb"></span>
+                <span>English</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="https://www.oiaproperties.com/storage/Setting/1746348407Oia%20Properties%20Logo%20-%20Dark%20-%20Large%20size-01%20(1).svg" alt="OIA Properties" class="logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#rent" class="active">RENT/BUY</a></li>
+                <li><a href="#area">AREA <i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="#project">PROJECT <i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="#developer">DEVELOPER <i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="#list">LIST YOUR PROPERTY</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="cta-button">Free Consultation <i class="fas fa-arrow-right"></i></button>
+                <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+            </div>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1>DISCOVER YOUR MOST COMFORT PLACE FOR YOUR FUTURE LIFE</h1>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">POPULAR<br>AREAS</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">11+</span>
+                    <span class="stat-label">PROJECTS</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">6+</span>
+                    <span class="stat-label">YEARS<br>EXPERIENCE</span>
+                </div>
+            </div>
+
+            <button class="all-projects-btn">All Projects <i class="fas fa-arrow-right"></i></button>
+
+            <div class="hero-nav">
+                <button class="hero-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="hero-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <!-- Search Form Overlay -->
+        <div class="search-form-overlay">
+            <!-- Desktop full filter -->
+            <div class="search-form-wrapper desktop-only">
+                <div class="form-tabs">
+                    <button class="tab-button" data-tab="sale">FOR SALE</button>
+                    <button class="tab-button active" data-tab="rent">FOR RENT</button>
+                    <button class="reset-btn"><i class="fas fa-sync-alt"></i> RESET</button>
+                </div>
+                
+                <div class="search-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="City, community, area">
+                        <i class="fas fa-search form-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select>
+                            <option>Property Type</option>
+                            <option>Villa</option>
+                            <option>Apartment</option>
+                            <option>Townhouse</option>
+                        </select>
+                        <i class="fas fa-chevron-down form-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select>
+                            <option>Bedroom</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3+</option>
+                        </select>
+                        <i class="fas fa-chevron-down form-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select>
+                            <option>Property Size</option>
+                            <option>500-1000 sq ft</option>
+                            <option>1000-2000 sq ft</option>
+                            <option>2000+ sq ft</option>
+                        </select>
+                        <i class="fas fa-chevron-down form-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select>
+                            <option>Price</option>
+                            <option>Under $500K</option>
+                            <option>$500K - $1M</option>
+                            <option>$1M+</option>
+                        </select>
+                        <i class="fas fa-chevron-down form-icon"></i>
+                    </div>
+                    
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+
+            <!-- Mobile Compact Filter -->
+            <div class="mobile-filter-bar mobile-only">
+                <div class="mobile-toggle-tabs">
+                    <button class="mobile-tab active">SALE</button>
+                    <button class="mobile-tab">RENT</button>
+                </div>
+                <div class="mobile-search-row">
+                    <div class="mobile-search-input">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="City, community, area">
+                    </div>
+                    <button class="mobile-icon-btn"><i class="fas fa-sliders-h"></i></button>
+                    <button class="mobile-icon-btn search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="properties">
+        <div class="container">
+            <div class="section-header">
+                <div class="carousel-nav">
+                    <button class="carousel-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <h2 class="section-title">LATEST PROPERTIES</h2>
+                <div class="properties-tabs">
+                    <button class="active" data-filter="sale">FOR SALE</button>
+                    <button data-filter="rent">FOR RENT</button>
+                </div>
+            </div>
+
+            <div class="properties-carousel">
+                <div class="properties-container" id="properties-container">
+                    <!-- Cards injected via JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Off-plan Section -->
+    <section id="offplan" class="offplan">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">OFF-PLAN PROJECTS</h2>
+            </div>
+
+            <div class="offplan-slider" id="offplan-slider">
+                <!-- Slides will be loaded here by JavaScript -->
+                <div class="offplan-nav" id="offplan-nav">
+                    <!-- Navigation dots will be added by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
